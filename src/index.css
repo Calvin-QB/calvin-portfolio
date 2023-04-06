@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/font/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+#tsparticles {
+  position: absolute;
+  inset: 0 0 0 0;
+  padding: 0;
+  margin: 0;
+  z-index: -1; /* if you use -1 you have to set to `"window"` the interactivity.detectsOn property */
+}
+
+.active {
+  --tw-text-opacity: 1;
+  color: rgb(123 165 243 / var(--tw-text-opacity));
+}
