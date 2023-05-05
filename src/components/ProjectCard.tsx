@@ -23,7 +23,7 @@ const ProjectCard = ({ project }: ProjectProp) => {
     >
       <img
         className=" object-cover border rounded mb-4 z-0 w-full h-52"
-        src={`/images/${project.image}`}
+        src={project.image}
         alt={project.name}
       />
       <h3 className=" text-xl font-semibold mb-2">{project.name}</h3>

@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import projects from "../projectsData.json";
+import projects from "../projectsData.jsx";
 import { motion } from "framer-motion";
 import { fadeVariant } from "../variants";
 

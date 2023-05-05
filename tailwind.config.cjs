@@ -8,9 +8,9 @@ module.exports = {
         "custom-black": "rgb(18,18,18)",
       },
       backgroundImage: {
-        home: "url(/images/banner-bg.png)",
-        gradiant1: "url(/images/color-sharp.png)",
-        gradiant2: "url(/images/color-sharp2.png)",
+        home: "url(assets/images/bannerbg.png)",
+        gradiant1: "url(assets/images/colorsharp.png)",
+        gradiant2: "url(assets/images/colorsharp2.png)",
       },
       textColor: {
         "custom-blue": "rgb(58, 175, 222)",
