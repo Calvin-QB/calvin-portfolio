@@ -24,11 +24,12 @@ function About() {
         id="about"
       >
         <div className="text-lg md:w-1/2">
-          <h1 className="text-3xl font-bold mb-16">About Me</h1>
+          <h1 className="text-3xl  font-bold mb-8">About Me</h1>
+          <div className="border w-3/4 border-white mb-16"></div>
+
           <motion.p
             variants={fadeVariant("up", 0.1)}
-            className="text-lg leading-relaxed md:text-2xl md:leading-loose
-"
+            className="text-lg leading-relaxed md:text-2xl md:leading-loose"
           >
             Hi, I'm Calvin Bui! I'm a college student studying Computer Science,
             aiming to become a software engineer who creates valuable and
@@ -39,8 +40,10 @@ function About() {
             while growing both personally and professionally.
           </motion.p>
         </div>
-        <motion.div variants={shadowVariant("up", 0.1)} className="md:w-1/2 ">
-          <div className="md:text-center text-3xl font-bold mb-20">Skills</div>
+        <motion.div variants={shadowVariant("up", 0.1)} className="md:w-1/2">
+          <div className="md:text-center text-3xl font-bold mb-8">Skills</div>
+          <div className="border w-1/4 mx-auto  border-white mb-20"></div>
+
           <motion.div
             variants={fadeVariant("up", 0.5)}
             className=" flex flex-row justify-between flex-wrap gap-y-16"

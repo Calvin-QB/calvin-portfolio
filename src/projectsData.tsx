@@ -23,13 +23,13 @@ const projectsData = [
     name: "Project 4",
     image: bannerbg,
     description:
-      "Nam efficitur enim eget vehicula convallis. Cras vitae mauris lectus. Sed aliquam bibendum metus, vitae semper odio accumsan in. Cras rhoncus at lorem at posuere. Duis ornare lacus nec erat pulvinar, vitae feugiat augue ultricies. Vestibulum vulputate et magna sit amet aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed purus lacus, porta non magna ut, gravida vulputate metus. Mauris nec hendrerit felis. Vestibulum tincidunt posuere diam et eleifend. Integer interdum neque ac dui iaculis, vel tincidunt felis ornare. Praesent sed iaculis nunc, ut varius nisl. Aliquam quis nisl sit amet massa interdum accumsan. Vestibulum iaculis ac augue id efficitur.",
+      "Nam efficitur enim eget vn. Cras rhoncus atae feugiat augue ultricies. Vestibulum vulputate et magna sit amet aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed purus lacus, porta non magna ut, gravida vulputate metus. Mauris nec hendrerit felis. Vestibulum tincidunt posuere diam et eleifend. Integer interdum neque ac dui iaculis, vel tincidunt felis ornare. Praesent sed iaculis nunc, ut varius nisl. Aliquam quis nisl sit amet massa interdum accumsan. Vestibulum iaculis ac augue id efficitur.",
   },
   {
     name: "Project 5",
     image: bannerbg,
     description:
-      "Nam efficitur enim eget vehicula convallis. Cras vitae mauris lectus. Sed aliquam bibendum metus, vitae semper odio accumsan in. Cras rhoncus at lorem at posuere. Duis ornare lacus nec erat pulvinar, vitae feugiat augue ultricies. Vestibulum vulputate et magna sit amet aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed purus lacus, porta non magna ut, gravida vulputate metus. Mauris nec hendrerit felis. Vestibulum tincidunt posuere diam et eleifend. Integer interdum neque ac dui iaculis, vel tincidunt felis ornare. Praesent sed iaculis nunc, ut varius nisl. Aliquam quis nisl sit amet massa interdum accumsan. Vestibulum iaculis ac augue id efficitur.",
+      "Nam efficituruis nisl sit amet massa interdum accumsan. Vestibulum iaculis ac augue id efficitur.",
   },
 ];
 

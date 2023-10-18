@@ -12,11 +12,13 @@ const Projects = () => {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        className="pt-3 text-3xl font-bold mb-16"
+        className="pt-3 text-3xl font-bold"
       >
-        My Projects
+        <div className=" mb-8">My Projects</div>
+        <div className="border w-1/4 border-white mb-20"></div>
       </motion.h2>
-      <div className="flex justify-center flex-col md:flex-row md:flex-wrap md:justify-around gap-7">
+
+      <div className="flex justify-center flex-col md:flex-row md:flex-wrap md:flex-beg	 md:justify-around gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
