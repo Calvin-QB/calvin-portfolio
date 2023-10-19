@@ -28,7 +28,6 @@ const Navbar = () => {
           <Link to="projects" activeClass="active" spy={true} smooth={true}>
             <div className="hover: cursor-pointer">Projects</div>
           </Link>
-          <div>Resume</div>
         </nav>
 
         <FontAwesomeIcon

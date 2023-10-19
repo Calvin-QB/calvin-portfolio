@@ -1,35 +1,46 @@
-import { bannerbg, colorsharp2 } from "./assets/images";
+import {
+  spotifyb,
+  sleeptrack,
+  weatherapp,
+  blog,
+  portfolio,
+} from "./assets/images";
 
 const projectsData = [
   {
-    name: "Project 1",
-    image: bannerbg,
+    name: "Weather Forecast",
+    image: weatherapp,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vulputate efficitur orci in varius. Vivamus egestas dapibus orci ac lacinia. Proin faucibus, sapien non egestas congue, sem velit elementum tortor, quis egestas arcu diam vel turpis. Suspendisse ullamcorper a mi et viverra. Curabitur id venenatis nisl. Sed imperdiet justo ultrices, rhoncus ante nec, ultrices massa. Praesent dignissim massa ipsum. Sed a ipsum turpis. Ut fringilla augue justo. Suspendisse faucibus erat quam, vel imperdiet purus commodo sit amet. Donec mollis mauris eget metus elementum, sed pellentesque est sollicitudin. Sed ut metus at leo feugiat feugiat at ut erat. Morbi mi eros, tempor auctor urna sit amet, suscipit varius nulla. Vestibulum vitae leo ullamcorper, bibendum nibh ut, sollicitudin nunc.",
+      "I developed a React-based weather app that provides real-time weather updates through an intuitive user interface. The integration of a city-suggestion API significantly enhanced the user search experience, minimizing search-related errors. Leveraging the OpenWeather API, the app delivers comprehensive weather information, including real-time data and forecasts, for any selected city.",
+    link: "https://github.com/Calvin-QB/weather-app",
   },
   {
-    name: "Project 2",
-    image: bannerbg,
+    name: "My Portfolio",
+    image: portfolio,
     description:
-      "In nunc ligula, pharetra at ultricies non, viverra in velit. Aliquam vitae dui tristique, auctor diam eu, volutpat diam. Praesent non mauris finibus, cursus dui eu, dapibus nisl. Morbi sodales lacus et finibus malesuada. Aenean gravida augue neque, vitae vestibulum eros sagittis dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus elementum ultrices ligula, quis ultrices nulla maximus sit amet. Duis tincidunt arcu in justo pretium, a facilisis velit cursus. Maecenas nec feugiat nisi. Aenean in efficitur enim. Vestibulum a condimentum ante. Duis faucibus felis dui, a fringilla massa interdum nec.",
+      "    This is my personal portfolio site where I can showcase the projects I've worked on. It has also been a exciting and fun opportunity to express my creativity.  Additionally,  it gave me a chance to explore some great and intriguing npm packages to integrate with React.",
+    link: "https://github.com/Calvin-QB/calvin-portfolio",
   },
   {
-    name: "Project 3",
-    image: colorsharp2,
+    name: "Blog Site",
+    image: blog,
     description:
-      "Nam efficitur enim eget vehicula convallis. Cras vitae mauris lectus. Sed aliquam bibendum metus, vitae semper odio accumsan in. Cras rhoncus at lorem at posuere. Duis ornare lacus nec erat pulvinar, vitae feugiat augue ultricies. Vestibulum vulputate et magna sit amet aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed purus lacus, porta non magna ut, gravida vulputate metus. Mauris nec hendrerit felis. Vestibulum tincidunt posuere diam et eleifend. Integer interdum neque ac dui iaculis, vel tincidunt felis ornare. Praesent sed iaculis nunc, ut varius nisl. Aliquam quis nisl sit amet massa interdum accumsan. Vestibulum iaculis ac augue id efficitur.",
+      "A full-stack React blog application that offers comprehensive content management capabilities. By seamlessly integrating a MySQL database, the app ensures prompt data retrieval and updates for both content and user information. To enhance security, I incorporated JWT-based authorization. Furthermore, the application's performance was optimized by centralizing variables using React Context, which streamlined data access across various components.",
+    link: "https://github.com/Calvin-QB/blog-post",
   },
   {
-    name: "Project 4",
-    image: bannerbg,
+    name: "Sleep Tracker",
+    image: sleeptrack,
     description:
-      "Nam efficitur enim eget vn. Cras rhoncus atae feugiat augue ultricies. Vestibulum vulputate et magna sit amet aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed purus lacus, porta non magna ut, gravida vulputate metus. Mauris nec hendrerit felis. Vestibulum tincidunt posuere diam et eleifend. Integer interdum neque ac dui iaculis, vel tincidunt felis ornare. Praesent sed iaculis nunc, ut varius nisl. Aliquam quis nisl sit amet massa interdum accumsan. Vestibulum iaculis ac augue id efficitur.",
+      "Mobile sleep tracker application that allows users to monitor and analyze their sleep patterns. By integrating advanced tracking features, users can gain insights into their sleep cycles and overall sleep health. The app's user-friendly interface provides comprehensive data visualization, making it easier for individuals to understand and optimize their rest. Through continuous monitoring and feedback, users can make informed decisions about their sleep habits and overall well-being.",
+    link: "https://github.com/Calvin-QB/sleeptrack",
   },
   {
-    name: "Project 5",
-    image: bannerbg,
+    name: "Spotify Stats",
+    image: spotifyb,
     description:
-      "Nam efficituruis nisl sit amet massa interdum accumsan. Vestibulum iaculis ac augue id efficitur.",
+      "In this portfolio piece, I demonstrate my skills in API data retrieval and frontend design using Angular. The webpage interacts with a Node.js/Express backend, focusing on exploring Spotify's extensive track collection. The backend handles OAuth authentication with the Spotify API, while I've implemented HTTP requests for specific API actions. Users can easily search and navigate artists, albums, and tracks.",
+    link: "https://github.com/Calvin-QB/spotifyb",
   },
 ];
 

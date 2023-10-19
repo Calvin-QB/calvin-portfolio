@@ -1,5 +1,6 @@
-import bannerbg from "./bannerbg.png";
-import colorsharp2 from "./colorsharp2.png";
-import colorsharp from "./colorsharp.png";
-
-export { bannerbg, colorsharp, colorsharp2 };
+import spotifyb from "./spotifyb.png";
+import sleeptrack from "./sleeptrack.png";
+import weatherapp from "./weatherapp.png";
+import blog from "./blog.png";
+import portfolio from "./portfolio.png";
+export { spotifyb, sleeptrack, weatherapp, blog, portfolio };

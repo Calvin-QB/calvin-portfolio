@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="px-8 z-0 relative bg-no-repeat bg-cover bg-center bg-home bg-custom-black py-96 md:px-16"
+      className="px-8 z-20 relative bg-no-repeat bg-cover bg-center bg-home bg-custom-black py-96 md:px-16"
     >
       <motion.div
         variants={fadeVariant("down", 0.3)}

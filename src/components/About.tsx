@@ -3,13 +3,15 @@ import { fadeVariant, staggerVariant, shadowVariant } from "../variants";
 
 function About() {
   const skillArray: string[] = [
-    "JavaScript",
     "Python",
-    "React",
-    "Databases",
-    "Responsive Design",
-    "TypeScript",
+    "Java",
+    "C#",
+    "Git/GitHub",
+    "Database Management (SQL/NoSQL)",
+    "Machine Learning",
+    "Front/Backend WebDev",
     "Data structures and Algorithms",
+    "React",
     "Node.js",
   ];
 
@@ -29,15 +31,19 @@ function About() {
 
           <motion.p
             variants={fadeVariant("up", 0.1)}
-            className="text-lg leading-relaxed md:text-2xl md:leading-loose"
+            className="text-lg leading-relaxed md:text-xl md:leading-loose"
           >
-            Hi, I'm Calvin Bui! I'm a college student studying Computer Science,
-            aiming to become a software engineer who creates valuable and
-            impactful products. I'm always motivated to improve my skills and
-            explore new technologies and techniques. With a strong dedication to
-            learning and a real passion for software development, I'm eager to
-            contribute to projects that can make a positive impact on the world,
-            while growing both personally and professionally.
+            Hi, I'm Calvin! I am currently studying Computer Science that is
+            attending university. During my time at university, I've explored
+            various facets of computer science: from general programming, data
+            structures, and machine learning to web development, graph/network
+            algorithms, informatics, database management, and information
+            retrieval. My ambition is to become a software engineer, dedicated
+            to contribute and craft impactful and valuable products. Continually
+            motivated to improve and discover new technologies and techniques, I
+            am always open to learning new things. I'm eager to contribute to
+            projects that make a positive difference in the world, ensuring
+            growth both personally and professionally.
           </motion.p>
         </div>
         <motion.div variants={shadowVariant("up", 0.1)} className="md:w-1/2">
